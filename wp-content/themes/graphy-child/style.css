@@ -11,6 +11,20 @@
  Text Domain:  graphy-child
 */
 
+.site-branding {
+	padding-top:0;
+	padding-bottom:0;
+}
+
+.site-logo,
+.site-title-container {
+	display:inline-block;
+}
+
+.site-description {
+	text-align:left;
+}
+
 .site-logo img {
-	width:30vw;
+	width:20vw;
 }

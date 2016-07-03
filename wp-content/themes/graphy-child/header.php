@@ -24,9 +24,6 @@
 		<div class="site-branding">
 		<?php graphy_logo(); ?>
 		<?php graphy_site_title(); ?>
-		<?php if ( ! get_theme_mod( 'graphy_hide_blogdescription' ) ) : ?>
-			<div class="site-description"><?php bloginfo( 'description' ); ?></div>
-		<?php endif; ?>
 		<?php if ( has_nav_menu( 'header-social' ) ) : ?>
 			<nav id="header-social-link" class="header-social-link social-link">
 				<?php wp_nav_menu( array( 'theme_location' => 'header-social', 'depth' => 1, 'link_before'  => '<span class="screen-reader-text">', 'link_after'  => '</span>' ) ); ?>
