@@ -104,3 +104,8 @@ Thumbs.db
 !wp-content/mu-plugins/example-mu-plugin/
 !wp-content/plugins/example-plugin/
 !wp-content/themes/example-theme/
+
+## AL customizations below
+
+# child theme
+!wp-content/themes/graphy-child/
