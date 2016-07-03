@@ -1,0 +1,16 @@
+/*
+ Theme Name:   Graphy child
+ Theme URI:    
+ Description:  Graphy Child Theme
+ Author:       AL
+ Author URI:   http://arthum.me
+ Template:     graphy
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  graphy-child
+*/
+
+.site-logo img {
+ max-width:50px !important;
+}
