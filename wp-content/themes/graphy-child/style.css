@@ -16,15 +16,47 @@
 	padding-bottom:0;
 }
 
+.site-title,
+.site-description,
+.entry-title,
+h2.widget-title {
+	font-family: 'Amatica SC';
+}
+
 .site-logo,
 .site-title-container {
 	display:inline-block;
 }
 
+h1.site-title {
+	font-weight:bold;
+}
+
 .site-description {
 	text-align:center;
+	font-style:normal;
+	font-weight:bold;
+	font-size:1.5em;
+	color:#c00;
 }
 
 .site-logo img {
 	width:20vw;
+}
+
+.entry-title {
+	font-weight:bold;
+	color:#c00;
+}
+
+#menu-main-menu {
+	font-family: 'Amatica SC';
+	font-weight:bold;
+	font-size:28px;
+}
+
+h2.widget-title {
+	font-weight:bold;
+	color:#c00;
+	font-size:24px;
 }

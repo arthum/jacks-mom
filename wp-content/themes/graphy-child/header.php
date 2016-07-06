@@ -12,6 +12,7 @@
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+<link href='https://fonts.googleapis.com/css?family=Amatica+SC:700,400' rel='stylesheet' type='text/css'>
 <?php wp_head(); ?>
 <meta name="p:domain_verify" content="4a78b4c4e91a04e62ed5d88f50bfc1d3"/>
 </head>
