@@ -37,7 +37,7 @@ h2.widget-title {
 	font-style:normal;
 	font-weight:bold;
 	font-size:1.5em;
-	color:#c00;
+	color:#00d;
 }
 
 .site-logo img {
@@ -46,7 +46,11 @@ h2.widget-title {
 
 .entry-title {
 	font-weight:bold;
-	color:#c00;
+	color:#00d;
+}
+
+.post-full .format-image .entry-title {
+	display:block;
 }
 
 #menu-main-menu {
@@ -57,6 +61,6 @@ h2.widget-title {
 
 h2.widget-title {
 	font-weight:bold;
-	color:#c00;
+	color:#00d;
 	font-size:24px;
 }
