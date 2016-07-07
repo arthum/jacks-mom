@@ -11,6 +11,15 @@
  Text Domain:  graphy-child
 */
 
+/*
+	https://color.adobe.com/Gettysburg-color-theme-209416/
+	red: #962d3e
+	dark blue gray: #343642
+	gray: #979c9c
+	beige yellow: #f2ebc7
+	blue: #348899
+*/
+
 .site-branding {
 	padding-top:0;
 	padding-bottom:0;
@@ -28,8 +37,9 @@ h2.widget-title {
 	display:inline-block;
 }
 
-.site-title {
+.site-title a {
 	font-weight:bold;
+	color:#348899;
 }
 
 .site-description {
@@ -37,7 +47,7 @@ h2.widget-title {
 	font-style:normal;
 	font-weight:bold;
 	font-size:1.5em;
-	color:#00d;
+	color:#979c9c;
 }
 
 .site-logo img {
@@ -46,7 +56,7 @@ h2.widget-title {
 
 .entry-title {
 	font-weight:bold;
-	color:#00d;
+	color:#348899;
 }
 
 .post-full .format-image .entry-title {
@@ -57,10 +67,15 @@ h2.widget-title {
 	font-family: 'Amatica SC';
 	font-weight:bold;
 	font-size:28px;
+	color:#348899;
 }
 
 h2.widget-title {
 	font-weight:bold;
-	color:#00d;
+	color:#348899;
 	font-size:24px;
+}
+
+a.category {
+	color:#979c9c;
 }
