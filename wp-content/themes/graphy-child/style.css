@@ -34,7 +34,7 @@ h2.widget-title {
 
 .site-logo,
 .site-title-container {
-	display:inline-block;
+	display:block;
 }
 
 .site-title a {
@@ -46,12 +46,14 @@ h2.widget-title {
 	text-align:center;
 	font-style:normal;
 	font-weight:bold;
-	font-size:1.5em;
+	font-size:2em;
 	color:#979c9c;
+	padding-bottom:1em;
 }
 
 .site-logo img {
-	width:20vw;
+	min-width:300px;
+	width:30vw;
 }
 
 .entry-title {

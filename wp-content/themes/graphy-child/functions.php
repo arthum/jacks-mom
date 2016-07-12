@@ -40,7 +40,6 @@ function graphy_site_title() {
 	$title_tag = ( is_front_page() ) ? 'h1' : 'div';
 	?>
     <div class="site-title-container">
-        <<?php echo esc_attr( $title_tag ); ?> class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></<?php echo esc_attr( $title_tag ); ?>>
 
     <?php if ( ! get_theme_mod( 'graphy_hide_blogdescription' ) ) : ?>
                 <div class="site-description"><?php bloginfo( 'description' ); ?></div>
