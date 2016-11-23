@@ -39,7 +39,6 @@ src="https://www.facebook.com/tr?id=238757159855468&ev=PageView&noscript=1"
 
 		<div class="site-branding">
 		<?php graphy_logo(); ?>
-		<?php graphy_site_title(); ?>
 		<?php if ( has_nav_menu( 'header-social' ) ) : ?>
 			<nav id="header-social-link" class="header-social-link social-link">
 				<?php wp_nav_menu( array( 'theme_location' => 'header-social', 'depth' => 1, 'link_before'  => '<span class="screen-reader-text">', 'link_after'  => '</span>' ) ); ?>

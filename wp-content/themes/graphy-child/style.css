@@ -20,9 +20,28 @@
 	blue: #348899
 */
 
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+   clear: both;
+}
+
 .site-branding {
 	padding-top:0;
 	padding-bottom:0;
+}
+
+.site-branding-left-half {
+	width:80%;
+	float:left;
+}
+.site-branding-right-half {
+	width:20%;
+	float:right;
+	padding-top:3em;
 }
 
 .site-title,

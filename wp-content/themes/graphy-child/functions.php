@@ -26,7 +26,15 @@ function graphy_logo() {
 		$logo_width = round( $logo_width / 2 ); ?>
 		<<?php echo esc_attr( $logo_tag ); ?> class="site-logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img alt="<?php echo esc_attr( $logo_alt ); ?>" src="<?php echo esc_attr( $logo_src ); ?>" width="<?php echo esc_attr( $logo_width ); ?>" /></a></<?php echo esc_attr( $logo_tag ); ?>>
 	<?php else: ?>
-		<<?php echo esc_attr( $logo_tag ); ?> class="site-logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img alt="<?php echo esc_attr( $logo_alt ); ?>" src="<?php echo esc_attr( $logo_src ); ?>" /></a></<?php echo esc_attr( $logo_tag ); ?>>
+		<div class="clearfix">
+		<div class="site-branding-left-half">
+			<<?php echo esc_attr( $logo_tag ); ?> class="site-logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img alt="<?php echo esc_attr( $logo_alt ); ?>" src="<?php echo esc_attr( $logo_src ); ?>" /></a></<?php echo esc_attr( $logo_tag ); ?>>
+			<?php graphy_site_title(); ?>
+		</div>
+		<div class="site-branding-right-half">
+			<iframe src="http://ab165021.adbutler-zilon.com/adserve/;ID=165021;size=300x250;setID=218375;type=iframe;click=CLICK_MACRO_PLACEHOLDER" width="300" height="250" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no"></iframe>
+		</div>
+		</div>
 	<?php endif;
 }
 
