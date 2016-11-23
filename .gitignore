@@ -109,3 +109,4 @@ Thumbs.db
 
 # child theme
 !wp-content/themes/graphy-child/
+wp-content/themes/graphy-child/error_log
