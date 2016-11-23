@@ -34,16 +34,6 @@
 	padding-bottom:0;
 }
 
-.site-branding-left-half {
-	width:80%;
-	float:left;
-}
-.site-branding-right-half {
-	width:20%;
-	float:right;
-	padding-top:3em;
-}
-
 .site-title,
 .site-description,
 .entry-title,
